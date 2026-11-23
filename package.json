@@ -1,0 +1,24 @@
+{
+	"name": "ryxd-js-obfuscator",
+	"version": "1.0.0",
+	"description": "Node.js JavaScript Obfuscator dengan 100-Layer SHA Family, Chaotic Permutation, License Verification, dan Anti-Tamper Trap.",
+	"main": "run.js",
+	"scripts": {
+		"start": "node run.js"
+	},
+	"keywords": [
+		"javascript",
+		"obfuscator",
+		"sha256",
+		"sha512",
+		"sha3",
+		"security",
+		"nodejs",
+		"ryotaxd"
+	],
+	"author": "RyotaXD <https://github.com/RyotaXD>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}
