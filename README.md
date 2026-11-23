@@ -31,6 +31,7 @@ pkg update && pkg upgrade -y
 pkg install nodejs git -y
 git clone https://github.com/RyotaXD/javascript--obfuscator.git
 cd javascript--obfuscator
+npm install
 ```
 
 ### 2. Di Linux / Windows / macOS
@@ -38,6 +39,7 @@ cd javascript--obfuscator
 ```bash
 git clone https://github.com/RyotaXD/javascript--obfuscator.git
 cd javascript--obfuscator
+npm install
 ```
 
 ---
@@ -46,7 +48,7 @@ cd javascript--obfuscator
 
 ```text
 javascript--obfuscator/
-├── run.js          # Obfuscator utama (mode interaktif & CLI)
+├── run.js          # Obfuscator utama 
 ├── package.json    # Konfigurasi proyek
 ├── README.md       # Dokumentasi instalasi & pemakaian
 └── test.js         # Contoh file target yang akan di-obfuscate
